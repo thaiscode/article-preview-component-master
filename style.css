@@ -179,7 +179,25 @@ article {
 }
 
 @media screen and (min-width: 1280px){    
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        height: 50vh;
+    }
+
+    .main__img {
+        width: 40%;
+        height: 100%;
+    }
     
+    .main__img img{
+        border-radius: 10px 0 0 10px;
+    }
+    
+    article {
+        width: 55%;
+    }
 
     .attribution { 
         font-size: 1rem; 

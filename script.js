@@ -10,7 +10,8 @@ function share(){
     if (window.innerWidth <= 768) {
         about.style.display = 'none'
         shareBox.style.display = 'flex'
-    } else {
-        console.log("nao deu certo")
+    } else if (shareBox.style.display = 'none'){
+        shareBox.style.display = 'flex'
     }
 }
+

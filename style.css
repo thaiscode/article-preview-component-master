@@ -175,7 +175,7 @@ article {
     }
 }
 
-@media screen and (min-width: 1280px){    
+@media screen and (min-width: 1280px){   
     main {
         flex-direction: row;
         justify-content: space-between;
@@ -246,9 +246,12 @@ article {
         justify-content: space-evenly;
         margin: 0 auto;
         border-radius: 10px;
-        position: fixed;
-        right: 178px;
+        position: absolute;
+        right: 177px;
         bottom: 250px;
+        /*position: fixed;
+        right: 178px;
+        bottom: 250px;*/
         display: none;
     }
 
@@ -337,7 +340,7 @@ article {
 
     .share__box {
         right: 249px;
-        bottom: 278px;
+        bottom: 290px;
     }
 
     .share__title {

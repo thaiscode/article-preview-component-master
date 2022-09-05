@@ -239,6 +239,10 @@ article {
         border-radius: 50%;
     }
 
+    .share__button:hover, .share__icon:hover {
+        cursor: pointer;
+    }
+
     .share__box {
         width: 19%;
         height: 9vh;
@@ -249,9 +253,6 @@ article {
         position: absolute;
         right: 177px;
         bottom: 250px;
-        /*position: fixed;
-        right: 178px;
-        bottom: 250px;*/
         display: none;
     }
 
@@ -354,6 +355,31 @@ article {
 }
 
 @media screen and (min-width: 1920px){
+    .article__title {
+        font-size: 2rem;
+        line-height: 130%;
+    }
+    
+    .article__paragraph {
+        font-size: 1.2rem;
+    }
+
+    .about__information {
+        margin-left: -250px ;
+    }
+
+    .about__title {
+        font-size: 1rem;
+    }
+
+    .about__paragraph {
+        font-size: 0.95rem;
+    }
+
+    .share__box {
+        right: 310px;
+        bottom: 370px;
+    }
 }
 
 

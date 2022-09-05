@@ -51,7 +51,7 @@ main {
 
 article {
     width: 85%;
-    height: 75vh;
+    max-height: 75vh;
     margin: 1.5rem auto 0.5rem auto;
     line-height: 130%;
     display: flex;
